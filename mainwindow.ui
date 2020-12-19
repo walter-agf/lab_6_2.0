@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1250</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="image.qrc">
+    <normaloff>:/image/jupiter.svg</normaloff>:/image/jupiter.svg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1055</width>
+      <height>855</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>20</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Star</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>50</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>360</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>80</y>
+      <width>137</width>
+      <height>266</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>pos_X</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QDoubleSpinBox" name="x">
+       <property name="minimum">
+        <double>-99999999999999996863366107917975552.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>100000000000000000026609864708367276537402401181200809098131977453489758916313088.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>pos_y</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QDoubleSpinBox" name="y">
+       <property name="minimum">
+        <double>-9999999999999999830336967949613257980309080240684656321838454199566729216.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>99999999999999997168788049560464200849936328366177157906432.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>vel_x</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QDoubleSpinBox" name="vx">
+       <property name="minimum">
+        <double>-100000000000000004337729697461918607329029332495193931179177378933611681288968111094132375552.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>100000000000000001463069523067487303097004298786465505927861078716979636425114821591040.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>vel_y</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QDoubleSpinBox" name="vy">
+       <property name="minimum">
+        <double>-100000000000000001555941612946684302426820139692106143336977058043083378116475570326498538991504744767620628086784.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>9999999999999999818508707188399807864717650964328171247958398369899072554380053298205803424393137676263358464.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>masa</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QDoubleSpinBox" name="masa">
+       <property name="minimum">
+        <double>-1000000000000000049861653971908893017010268485438462151574892930611988399099305815384459015356416.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>99999999999999996881384047029926983435371269061279689406644211752791525136670645395254002395395884805259264.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>radio</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <widget class="QDoubleSpinBox" name="radio">
+       <property name="minimum">
+        <double>-100000000000000001440594758724527385583111862242831263013712314935498927069126131626863257625726456080505437183296233537536.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>100000000000000001403918625579970521782461970570129136093830042945021304548650108108184133243565686844612285763778101906192989276863139689872767772084421689716760605683089408.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>400</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Borrar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
